@@ -22,7 +22,7 @@ function Header() {
             style={{ maxHeight: '100px' }}
             navbarScroll
           >           
-                      <input type="search" name="" id="" placeholder=' Search for your favorite groups in ATG' className='rounded-pill bg-light border-0 py-2 px-6 flex justify-content-center text-center w-50 fw-semibold position-relative' />
+                      <input type="search" name="" id="" placeholder=' Search for your favorite groups in ATG' className='rounded-pill share border-0 py-2 px-6 flex justify-content-center text-center w-50 fw-semibold position-relative' />
                       <AiOutlineSearch className='position-absolute ms-5 mt-2 fs-5 fw-bold' />
 
                       <h5 className='ms-auto pe-5'> Create Account. <span className='text-primary'> It's Free !</span></h5>

@@ -1,7 +1,28 @@
 .banner {
-    background-image: url('../../src/Assests/Images/Rectangle\ 2.png');
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%), url('../../src/Assests/Images/Rectangle\ 2.png');
     background-size: cover;
     background-repeat: no-repeat;
-   height: 440px;
+    height: 440px;
+
 
 }
+
+.share {
+    background-color: #EDEEF0;
+    
+}
+.card-content{
+    margin:286px 0 0 200px ;
+    
+}
+/* @media only screen and (max-width:688px){
+.banner {
+        background: linear-gradient(180deg, rgba(0, 0, 0, 0.45) 0%, rgba(0, 0, 0, 0.6) 100%), url('../../src/Assests/Images/Rectangle\ 2.png');
+        background-size:;
+        background-repeat: no-repeat;
+        height: 440px;
+        width: 360px;
+        height: 236px;
+
+    }
+} */
