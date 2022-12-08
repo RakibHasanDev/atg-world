@@ -4,8 +4,11 @@ import banner from '../../src/Assests/Images/Rectangle 2.png'
 import './Home.css'
 import HomeBody from './HomeBody/HomeBody';
 import img1 from '../../src/Assests/Images/Rectangle 5.png'
+import img5 from '../../src/Assests/Images/Rectangle 5 (1).png'
 import img2 from '../../src/Assests/Images/card-logo/✍️ Article (1).png'
+import img4 from '../../src/Assests/Images/card-logo/🔬️ Education.png'
 import img3 from '../../src/Assests/Images/Rectangle 3 (1).png'
+import img6 from '../../src/Assests/Images/Rectangle 3 (2).png'
 import { BsThreeDots } from 'react-icons/bs';
 import { AiOutlineEye } from 'react-icons/ai';
 import { BsFillShareFill } from 'react-icons/bs';
@@ -42,10 +45,34 @@ const Home = () => {
                               </div>
                                 <p className="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
 
-                                <div className='d-flex justify-content-between align-items-center'>
+                                <div className='d-flex justify-content-between align-items-center fw-semibold'>
                                     <div className='d-flex gap-3 align-items-center mt-3'>
                                         <img src={img3} alt="" />
                                         <p className='fw-bold'>Sarthak Kamra</p>
+                                    </div>
+                                    <div className='mt-3 d-flex gap-3 align-items-center'>
+                                        <p> <span><AiOutlineEye /></span> 1.4k views</p>
+                                        <p className='px-2 py-1 bg-light'> <BsFillShareFill/> </p>
+                                    </div>
+                              </div>
+                                
+                            </div>
+                        </div>
+                        <div className="card mb-3">
+                            <img src={img5} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                    <p><img src={img4} alt="" /></p>
+                                <div className='d-flex justify-content-between'>
+                                
+                                    <h5 className="card-title fw-semibold">Tax Benefits for Investment under National Pension Scheme launched by Government</h5>
+                                   <BsThreeDots/>
+                              </div>
+                                <p className="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+
+                                <div className='d-flex justify-content-between align-items-center fw-semibold'>
+                                    <div className='d-flex gap-3 align-items-center mt-3'>
+                                        <img src={img6} alt="" />
+                                        <p className='fw-bold'>Sarah West</p>
                                     </div>
                                     <div className='mt-3 d-flex gap-3 align-items-center'>
                                         <p> <span><AiOutlineEye /></span> 1.4k views</p>
