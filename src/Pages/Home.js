@@ -2,7 +2,7 @@ import React from 'react';
 import banner from '../../src/Assests/Images/Rectangle 2.png'
 import './Home.css'
 import HomeBody from './HomeBody/HomeBody';
-import { AiOutlineSearch } from 'react-icons/ai';
+
 
 const Home = () => {
     return (
@@ -19,7 +19,19 @@ const Home = () => {
             </section>
             <div className='container'>
                 <HomeBody></HomeBody>
-                <hr />
+                <hr  className='mt-0' />
+                <div className=' mt-5 row '>
+                    <div className='col-8'>
+
+                        
+                    </div>
+
+                    <div className='col-4'>
+                        
+
+                    </div>
+
+                </div>
                 
             </div>
       </div>
