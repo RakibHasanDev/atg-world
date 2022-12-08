@@ -1,7 +1,14 @@
 import React from 'react';
+import { Card } from 'react-bootstrap';
 import banner from '../../src/Assests/Images/Rectangle 2.png'
 import './Home.css'
 import HomeBody from './HomeBody/HomeBody';
+import img1 from '../../src/Assests/Images/Rectangle 5.png'
+import img2 from '../../src/Assests/Images/card-logo/✍️ Article (1).png'
+import img3 from '../../src/Assests/Images/Rectangle 3 (1).png'
+import { BsThreeDots } from 'react-icons/bs';
+import { AiOutlineEye } from 'react-icons/ai';
+import { BsFillShareFill } from 'react-icons/bs';
 
 
 const Home = () => {
@@ -19,15 +26,44 @@ const Home = () => {
             </section>
             <div className='container'>
                 <HomeBody></HomeBody>
-                <hr  className='mt-0' />
-                <div className=' mt-5 row '>
-                    <div className='col-8'>
+                <hr className='mt-0' />
+                
+                 {/* card start  */}
+                <div className=' mt-5 row gap-5 '>
+                    <div className='col-md-7 col-12'>
+                        <div className="card mb-3">
+                            <img src={img1} className="card-img-top" alt="..." />
+                            <div className="card-body">
+                                    <p><img src={img2} alt="" /></p>
+                                <div className='d-flex justify-content-between'>
+                                
+                                    <h5 className="card-title fw-semibold">What if famous brands had regular fonts? Meet RegulaBrands!</h5>
+                                   <BsThreeDots/>
+                              </div>
+                                <p className="card-text">I’ve worked in UX for the better part of a decade. From now on, I plan to rei…</p>
+
+                                <div className='d-flex justify-content-between align-items-center'>
+                                    <div className='d-flex gap-3 align-items-center mt-3'>
+                                        <img src={img3} alt="" />
+                                        <p className='fw-bold'>Sarthak Kamra</p>
+                                    </div>
+                                    <div className='mt-3 d-flex gap-3 align-items-center'>
+                                        <p> <span><AiOutlineEye /></span> 1.4k views</p>
+                                        <p className='px-2 py-1 bg-light'> <BsFillShareFill/> </p>
+                                    </div>
+                              </div>
+                                
+                            </div>
+                        </div>
+                        
 
                         
                     </div>
 
-                    <div className='col-4'>
-                        
+                    <div className='col-md-4 col-12'>
+
+                        <h1>This is from second card</h1>
+
 
                     </div>
 
