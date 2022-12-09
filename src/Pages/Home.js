@@ -19,19 +19,31 @@ import { BsFillShareFill } from 'react-icons/bs';
 import { AiTwotoneCalendar } from 'react-icons/ai';
 import { CiLocationOn } from 'react-icons/ci';
 import { BsPencilFill } from 'react-icons/bs';
+import { BiLike } from 'react-icons/bi';
+import exclimetery from '../../src/Assests/Images/card-logo/exciometary.png'
+
 import HomeSearch from './HomeBody/homeSearch';
+
+import follow1 from '../../src/Assests/Images/follow/1.png'
+import follow2 from '../../src/Assests/Images/follow/2.png'
+import follow3 from '../../src/Assests/Images/follow/3.png'
+import follow4 from '../../src/Assests/Images/follow/4.png'
 
 
 const Home = () => {
+
+ 
     return (
         <div>
             <section className='banner position-relative'
 
             >
-                <div className='position-absolute bottom-0  pb-5 card-content'>
+                <div className='position-absolute   pb-5 card-content'>
                     <h3 className='text-white fs-2 fw-bold'>Computer Engineering</h3>
                     <p className='text-white fs-5'>142,765 Computer Engineers follow this</p>
                 </div>
+
+                <button className=' button-position d-inline-block d-md-none btn border-2 border-white fw-semibold text-white mt-3  position-absolute ms-auto'> Leave Group</button>
 
 
             </section>
@@ -167,7 +179,7 @@ const Home = () => {
                         
                     </div>
 
-                    <div className='col-md-4 col-12'>
+                    <div className='col-md-4 col-12 d-none d-md-block'>
 
                         <div className='d-flex justify-content-between align-items-center'>
                             <p className='d-flex gap-3 fw-bold align-items-center'><CiLocationOn className='fw-bold' /> <span>Nodia India</span></p>
@@ -176,6 +188,51 @@ const Home = () => {
                       </div>
 
                         <hr className='mt-1' />
+
+                        <div className='d-flex align-items-center gap-3 mt-4'>
+                          <img src={exclimetery} alt="" />
+                            <p className='text-sm'>Your location will help us serve better and extend a personalised experience.</p>
+                        </div>
+                        
+                        <div className='mt-4 '> 
+                            <p className='fw-semibold d-flex gap-2'> <span><BiLike /> </span> REcommended Groups</p>
+
+                            <div className='d-flex justify-content-between mt-3'>
+
+                                <div className='d-flex gap-3 align-items-center'>
+                                    <img src={follow1} alt="" /> <p className='fw-semibold'> Leisure</p>
+                                </div>
+
+                                <button className='share btn rounded-pill  fw-semibold'> Follow</button>
+                            </div>
+                            <div className='d-flex justify-content-between mt-3'>
+
+                                <div className='d-flex gap-3 align-items-center'>
+                                    <img src={follow2} alt="" /> <p className='fw-semibold'> Activism</p>
+                                </div>
+
+                                <button className='share btn rounded-pill fw-semibold'> Follow</button>
+                            </div>
+                            <div className='d-flex justify-content-between mt-3'>
+
+                                <div className='d-flex gap-3 align-items-center'>
+                                    <img src={follow3} alt="" /> <p className='fw-semibold'> MBA</p>
+                                </div>
+
+                                <button className='share btn rounded-pill fw-semibold'> Follow</button>
+                            </div>
+                            <div className='d-flex justify-content-between mt-3'>
+
+                                <div className='d-flex gap-3 align-items-center'>
+                                    <img src={follow4} alt="" /> <p className='fw-semibold'> Philosophy</p>
+                                </div>
+
+                                <button className='share btn  rounded-pill fw-semibold'> Follow</button>
+                            </div>
+                            
+
+                          
+                        </div>
 
 
 

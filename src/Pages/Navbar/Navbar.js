@@ -26,7 +26,7 @@ function Header() {
     >
       <Container fluid className='py-1' >
         <Navbar.Brand href="#" className='w-25 ps-5 fs-3 align-items-center fw-semibold'> <span className='text-success  '>ATG.</span><span>W<img src={img} alt="" className='pb-1' /></span>RLD</Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" />
+        <Navbar.Toggle aria-controls="navbarScroll" className='d-none' />
         <Navbar.Collapse id="navbarScroll  " className='d-none d-md-block'>
           <Nav
             className='w-100 '
